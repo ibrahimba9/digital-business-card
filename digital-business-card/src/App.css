@@ -1,0 +1,89 @@
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.reference {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reference-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  background-color: white;
+}
+
+.reference-button > img {
+  padding-right: 10px;
+  
+}
+
+.container {
+  border: 1px solid #D5D4D8;
+  margin: auto; /* Add margin to the outside of the border */
+  border-radius: 30px;
+  background-color: #F5F5F5;
+  width: 50%;
+}
+
+body {
+  background-color: #23252C;
+}
+
+footer {
+  background-color: #D5D4D8;
+}
+
+.personal-details-container {
+  margin: auto;
+  text-align: center;
+}
+
+.profile-picture-container {
+  width: 100%;
+  height: 500px;
+  background-color: #23252C;
+  margin: auto;
+}
+
+.profile-picture-container > img{
+  width: 463px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.footer-container {
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  background-color: #D5D4D8;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.header-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: #D5D4D8;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.about-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skills-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}

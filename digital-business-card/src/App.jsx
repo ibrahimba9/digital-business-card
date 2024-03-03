@@ -11,12 +11,17 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Hello! This is my <strong>Digital Business card</strong> project with ReactJS!</h1>
+    <div className='container'>
+      <div className='header-container'>
+        <h1>Hello! This is my Digital Business Card project with ReactJS!</h1>
+      </div>
       <PersonalDetails />
       <About />
       <Skills />
-    </>
+      <div className='footer-container'>
+        Icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+      </div>
+    </div>
   )
 }
 
