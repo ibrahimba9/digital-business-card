@@ -7,7 +7,6 @@ function PersonalDetails(){
     return (
         <div className="personal-details-container">
             <div className="profile-picture-container">
-                <img src={ProfilePicture} />
             </div>
             <h3>Ibrahim Ben Abdallah</h3>
             <h4>Software Engineer</h4>
